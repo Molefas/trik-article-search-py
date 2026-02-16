@@ -65,12 +65,15 @@ python cli.py
 
 ```
 article-search-py/
-├── graph.py            # Main trik logic (invoke function + action handlers)
-├── llm.py              # Multi-provider LLM abstraction (Anthropic/OpenAI/Google)
-├── data.py             # Mock article database
-├── manifest.json       # Trik manifest (actions, schemas, config)
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
+├── pyproject.toml              # Python package configuration
+├── requirements.txt            # Python dependencies
+├── README.md                   # This file
+└── trik_article_search_py/     # Package directory
+    ├── __init__.py             # Package exports
+    ├── graph.py                # Main trik logic (invoke function + action handlers)
+    ├── llm.py                  # Multi-provider LLM abstraction (Anthropic/OpenAI/Google)
+    ├── data.py                 # Mock article database
+    └── manifest.json           # Trik manifest (actions, schemas, config)
 ```
 
 ## Response Modes

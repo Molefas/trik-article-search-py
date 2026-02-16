@@ -13,8 +13,8 @@ from __future__ import annotations
 import json
 from typing import Any, Literal
 
-from data import ARTICLES, get_article_by_id, Article
-from llm import detect_provider, create_llm_client, LLMClient, LLMMessage
+from .data import ARTICLES, get_article_by_id, Article
+from .llm import detect_provider, create_llm_client, LLMClient, LLMMessage
 
 
 TopicCategory = Literal["AI", "technology", "science", "health", "business", "other"]
