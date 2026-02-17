@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Article Search Trik - Python implementation demonstrating type-directed privilege separation"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
+license = {text = "MIT"}
 authors = [
     { name = "Molefas" }
 ]
