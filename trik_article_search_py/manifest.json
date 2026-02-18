@@ -3,7 +3,7 @@
   "id": "trik-article-search-py",
   "name": "Article Search (Python)",
   "description": "Searches for articles on a given topic. Python implementation demonstrating type-directed privilege separation with session support.",
-  "version": "1.0.1",
+  "version": "2.0.1",
 
   "actions": {
     "search": {
