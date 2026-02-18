@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "id": "trik-article-search-py",
   "name": "Article Search (Python)",
   "description": "Searches for articles on a given topic. Python implementation demonstrating type-directed privilege separation with session support.",
@@ -161,7 +162,6 @@
 
   "capabilities": {
     "tools": [],
-    "canRequestClarification": false,
     "session": {
       "enabled": true,
       "maxDurationMs": 1800000,
@@ -188,9 +188,7 @@
   },
 
   "limits": {
-    "maxExecutionTimeMs": 5000,
-    "maxLlmCalls": 2,
-    "maxToolCalls": 0
+    "maxExecutionTimeMs": 5000
   },
 
   "entry": {
